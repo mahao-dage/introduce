@@ -1,0 +1,70 @@
+
+*{
+font: "微软雅黑";
+
+}.head {
+    height:50px ;
+    width: 100%;
+    margin: 0 auto;
+    background:linear-gradient(0deg ,rgb(44, 103, 48) ,#ffffff )
+}
+.head li{
+    float: left;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    list-style: none;
+}.head li:hover{
+    transform: scale(1.15);
+}
+
+.head li a{
+    text-decoration: none;
+    color: rgb(44, 103, 48) ;
+}
+.banner{  
+    margin: 0 auto;
+    width: 980px;
+}
+
+.container{
+    
+  
+    height:440px ;
+}
+.card{
+    background-color: darkcyan;
+    width: 490px;
+    height: 220PX;
+    float: left;   transition: 0.5s;
+}
+
+
+
+.container:hover .card{
+  
+    transform: scale(0.83);
+}
+.container .card:hover{
+
+ transform: scale(1.15);
+ border-radius: 10%;
+
+}
+.card .content{
+    text-align: center;
+    
+}
+
+.card .content a{
+    text-decoration: none;
+    color: #fff;
+    background: olive;
+   
+  
+}
+.card .content:hover a{
+background: paleturquoise;
+
+
+}
